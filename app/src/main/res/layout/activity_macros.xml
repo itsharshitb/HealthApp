@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectbackgroundd"
+    android:orientation="vertical">
+
+    <!--  android:src="@drawable/bmr_logo"-->
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="283dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="37dp"
+        android:background="@drawable/custom_button2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Weight"
+        android:inputType="numberDecimal"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/maintButton"
+        android:layout_width="144dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginBottom="237dp"
+        android:backgroundTint="#46CEFE"
+        android:text="Calculate"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/bulkButton"
+        android:layout_width="144dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="#46CEFE"
+        android:text="Calculate"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Gain Weight"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cutButton"
+        android:layout_width="144dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginBottom="314dp"
+        android:backgroundTint="#46CEFE"
+        android:text="Calculate"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="282dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/custom_button2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Height"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="171dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Weight:"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/displayValue"
+        android:layout_width="245dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Maintain Weight"
+        android:textColor="#808080"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1E"
+        android:layout_width="101dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="324dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Cut Weight"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="282dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/custom_button2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Age"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Height:"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Age:"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nutrientsTextView"
+        android:layout_width="407dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="NUTRIENTS CALCULATOR"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

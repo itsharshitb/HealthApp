@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MeantToHealth</string>
+    <string name="textviewt">Textview</string>
+    <string name="namet">Name</string>
+    <string name="e_mailt">E-mail</string>
+    <string name="textviews">Textview</string>
+    <string name="textviewl">Textview</string>
+    <string name="textviewg">Textview</string>
+    <string name="textviewa">TextView</string>
+    <string name="usernamel">username</string>
+    <string name="loginl">Login</string>
+    <string name="passwordl">Password</string>
+    <string name="google_map_key">AIzaSyB_qsP8AOp_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="todo">TODO</string>
+    <string name="usernamea">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="textview">TextView</string>
+    <string name="login">Login</string>
+    <string name="textviewac">TextView</string>
+    <string name="press_the_button_for_contact_via_email">Press the Button for contact Via Email</string>
+    <string name="send_mail">SEND MAIL</string>
+</resources>

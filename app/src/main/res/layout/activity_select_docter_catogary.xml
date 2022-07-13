@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectbackgroundd"
+    tools:context=".SelectDocterCatogary">
+
+
+    <TextView
+        android:id="@+id/selectDocters"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Select Your catogary"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/heartButton"
+        android:layout_width="198dp"
+        android:layout_height="253dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button2"
+        android:contentDescription="@android:string/yes"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/heartselectcatogary" />
+
+    <ImageButton
+        android:id="@+id/generalButton"
+        android:layout_width="195dp"
+        android:layout_height="247dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custom_button2"
+        android:contentDescription="@android:string/yes"
+        android:padding="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/generalcatogory" />
+
+    <TextView
+        android:id="@+id/heartTextView"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="238dp"
+        android:background="@drawable/my_boder"
+        android:gravity="center"
+        android:text="Heart Specialist"
+        android:textColor="#808080"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/generaltextView"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/my_boder"
+        android:gravity="center"
+        android:text="for General "
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

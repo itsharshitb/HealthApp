@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89ABE3FF"
+    android:visibility="visible"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/htextView"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/htextView2"
+        android:layout_width="197dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/hImageView"
+        android:layout_width="122dp"
+        android:layout_height="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/custom_button1"
+        android:backgroundTint="#89ABE3FF"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/himage"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="3dp">
+
+        <ImageButton
+            android:id="@+id/bmiButton"
+            android:layout_width="205dp"
+            android:layout_height="150dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_button1"
+            android:padding="10dp"
+            android:contentDescription="@android:string/yes"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bmi" />
+
+        <ImageButton
+            android:id="@+id/AmbulanceButton"
+            android:layout_width="205dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="206dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_button1"
+            android:contentDescription="@android:string/yes"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ambulance_img" />
+
+        <ImageButton
+            android:id="@+id/nutrients"
+            android:layout_width="205dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="155dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_button1"
+            android:contentDescription="@android:string/yes"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/micronutrients" />
+
+        <ImageButton
+            android:id="@+id/DocterDetails"
+            android:layout_width="205dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="206dp"
+            android:layout_marginTop="155dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_button1"
+            android:contentDescription="@android:string/yes"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/docterdetails" />
+
+        <ImageButton
+            android:id="@+id/diseaseButton"
+            android:layout_width="201dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/custom_button1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/aarogya_setu"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/hospitalButton"
+            android:layout_width="196dp"
+            android:layout_height="149dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/custom_button1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hospitalnewsign"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

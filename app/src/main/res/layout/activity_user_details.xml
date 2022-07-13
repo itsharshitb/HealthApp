@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89ABE3FF"
+    android:backgroundTint="#89ABE3FF"
+    tools:context=".UserDetailsActivity">
+
+    <Button
+        android:id="@+id/userBtn1"
+        android:layout_width="246dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/custom_button1"
+        android:text="GO BACK"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/custom_button2"
+        android:padding="20dp"
+        app:srcCompat="@drawable/himage" />
+
+    <TextView
+        android:id="@+id/UsertextView1"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="174dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="Harshit"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/UsertextView2"
+        android:layout_width="205dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="231dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="harshit@gmail.com"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/UsertextView3"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginBottom="269dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="harshit1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/UsertextView4"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginBottom="212dp"
+        android:background="@drawable/custom_button2"
+        android:gravity="center"
+        android:text="harshit"
+        android:textSize="20sp" />
+
+</RelativeLayout>
